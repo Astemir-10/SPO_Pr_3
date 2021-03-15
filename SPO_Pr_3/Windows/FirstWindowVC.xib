@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="FirstWindowVC" customModule="SPO_Pr_3" customModuleProvider="target">
+            <connections>
+                <outlet property="listBackView" destination="xnF-iD-Vuc" id="D5P-SM-JDl"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="273"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="xnF-iD-Vuc">
+                    <rect key="frame" x="20" y="20" width="238" height="233"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="238" id="fxU-ZT-PeS"/>
+                        <constraint firstAttribute="height" constant="233" id="hdj-h5-9YM"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="xnF-iD-Vuc" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" symbolic="YES" id="Q9p-fe-VON"/>
+                <constraint firstItem="xnF-iD-Vuc" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" symbolic="YES" id="dH2-IX-cIw"/>
+            </constraints>
+            <point key="canvasLocation" x="-112" y="119.5"/>
+        </customView>
+    </objects>
+</document>

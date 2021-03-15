@@ -11,6 +11,11 @@
 		E2C7103525FDF55E003FEE46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7103425FDF55E003FEE46 /* ViewController.swift */; };
 		E2C7103725FDF560003FEE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C7103625FDF560003FEE46 /* Assets.xcassets */; };
 		E2C7103A25FDF560003FEE46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C7103825FDF560003FEE46 /* Main.storyboard */; };
+		E2C7104425FDF691003FEE46 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C7104325FDF691003FEE46 /* ViewController.xib */; };
+		E2C7104F25FE0755003FEE46 /* FirstWindowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7104D25FE0755003FEE46 /* FirstWindowVC.swift */; };
+		E2C7105025FE0755003FEE46 /* FirstWindowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C7104E25FE0755003FEE46 /* FirstWindowVC.xib */; };
+		E2C7105425FE0965003FEE46 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7105325FE0965003FEE46 /* CellView.swift */; };
+		E2C7105825FE09C8003FEE46 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C7105725FE09C8003FEE46 /* CellView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		E2C7103925FDF560003FEE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2C7103B25FDF560003FEE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2C7103C25FDF560003FEE46 /* SPO_Pr_3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SPO_Pr_3.entitlements; sourceTree = "<group>"; };
+		E2C7104325FDF691003FEE46 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		E2C7104D25FE0755003FEE46 /* FirstWindowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWindowVC.swift; sourceTree = "<group>"; };
+		E2C7104E25FE0755003FEE46 /* FirstWindowVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstWindowVC.xib; sourceTree = "<group>"; };
+		E2C7105325FE0965003FEE46 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		E2C7105725FE09C8003FEE46 /* CellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +65,33 @@
 			children = (
 				E2C7103225FDF55E003FEE46 /* AppDelegate.swift */,
 				E2C7103425FDF55E003FEE46 /* ViewController.swift */,
+				E2C7105225FE093F003FEE46 /* CustomView */,
+				E2C7104C25FE0742003FEE46 /* Windows */,
+				E2C7104325FDF691003FEE46 /* ViewController.xib */,
 				E2C7103625FDF560003FEE46 /* Assets.xcassets */,
 				E2C7103825FDF560003FEE46 /* Main.storyboard */,
 				E2C7103B25FDF560003FEE46 /* Info.plist */,
 				E2C7103C25FDF560003FEE46 /* SPO_Pr_3.entitlements */,
 			);
 			path = SPO_Pr_3;
+			sourceTree = "<group>";
+		};
+		E2C7104C25FE0742003FEE46 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7104D25FE0755003FEE46 /* FirstWindowVC.swift */,
+				E2C7104E25FE0755003FEE46 /* FirstWindowVC.xib */,
+			);
+			path = Windows;
+			sourceTree = "<group>";
+		};
+		E2C7105225FE093F003FEE46 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7105325FE0965003FEE46 /* CellView.swift */,
+				E2C7105725FE09C8003FEE46 /* CellView.xib */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,8 +151,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C7105825FE09C8003FEE46 /* CellView.xib in Resources */,
 				E2C7103725FDF560003FEE46 /* Assets.xcassets in Resources */,
+				E2C7104425FDF691003FEE46 /* ViewController.xib in Resources */,
 				E2C7103A25FDF560003FEE46 /* Main.storyboard in Resources */,
+				E2C7105025FE0755003FEE46 /* FirstWindowVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2C7103525FDF55E003FEE46 /* ViewController.swift in Sources */,
+				E2C7105425FE0965003FEE46 /* CellView.swift in Sources */,
 				E2C7103325FDF55E003FEE46 /* AppDelegate.swift in Sources */,
+				E2C7104F25FE0755003FEE46 /* FirstWindowVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
